@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ICustomersBusinessService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntSol.Libraries.Business.Interfaces\IntSol.Libraries.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Business.Validations.Interfaces\IntSol.Libraries.Business.Validations.Interfaces.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.DataAccess.Interfaces\IntSol.Libraries.DataAccess.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

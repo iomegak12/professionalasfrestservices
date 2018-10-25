@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\ASF\Demonstrations\ProfessionalASFSolution\IntSol.Libraries.Api.Controllers.Impl\IntSol.Libraries.Api.Controllers.Impl.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntSol.Libraries.Api.Controllers.Interfaces\IntSol.Libraries.Api.Controllers.Interfaces.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Business.Interfaces\IntSol.Libraries.Business.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

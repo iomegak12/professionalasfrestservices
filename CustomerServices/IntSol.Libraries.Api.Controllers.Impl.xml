@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IntSol.Libraries.Api.Controllers.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:IntSol.Libraries.Api.Controllers.Impl.CustomersApiController">
+            <summary>
+            Customers API Controller for Customers Information System
+            </summary>
+        </member>
+        <member name="M:IntSol.Libraries.Api.Controllers.Impl.CustomersApiController.#ctor(IntSol.Libraries.Business.Interfaces.ICustomersBusinessService)">
+            <summary>
+            Default Constructor API Controller
+            </summary>
+            <param name="customersBusinessService">Valid Customers Business Component</param>
+        </member>
+        <member name="M:IntSol.Libraries.Api.Controllers.Impl.CustomersApiController.GetCustomerDetail(System.Int32)">
+            <summary>
+            Gets Customer Details by Id
+            </summary>
+            <param name="customerId">Valid Customer Id</param>
+            <returns>Customer Detail Object</returns>
+        </member>
+        <member name="M:IntSol.Libraries.Api.Controllers.Impl.CustomersApiController.GetCustomers">
+            <summary>
+            Gets all Customer Records
+            </summary>
+            <returns>Array of Customer Records</returns>
+        </member>
+        <member name="M:IntSol.Libraries.Api.Controllers.Impl.CustomersApiController.SaveCustomerDetail(IntSol.Libraries.Models.Customer)">
+            <summary>
+            Saves a New Customer Record
+            </summary>
+            <param name="customer">Valid Customer Record</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:IntSol.Libraries.Api.Controllers.Impl.CustomersApiController.SearchCustomers(System.String)">
+            <summary>
+            Searches customer records by valid Customer Name
+            </summary>
+            <param name="customerName">Valid Search String</param>
+            <returns>Array of Customer Recors</returns>
+        </member>
+    </members>
+</doc>

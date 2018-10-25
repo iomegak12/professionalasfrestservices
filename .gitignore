@@ -1,0 +1,13 @@
+.vs
+
+\*\**\bin
+\*\**\debug
+
+.pkg
+
+packages
+
+**\bin
+**\obj
+
+**\pkg

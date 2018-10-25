@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/ProfessionalCRMSystemServices" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="CustomerServices_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="CustomerServices_InstanceCount" Value="1" />
+    <Parameter Name="CustomerServices_CRMSystemDBConnectionString" Value="ZGF0YSBzb3VyY2U9aW9tZWdhc3Fsc2VydmVydjMuZGF0YWJhc2Uud2luZG93cy5uZXQ7dXNlciBpZD1pb21lZ2FhZG1pbjtwYXNzd29yZD1QcmVzdGlnZUAxMjM7aW5pdGlhbCBjYXRhbG9nPWlvbWVnYXNxbGRhdGFiYXNlOw==" />
+  </Parameters>
+</Application>

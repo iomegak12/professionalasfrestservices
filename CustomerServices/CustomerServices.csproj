@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <TargetLatestRuntimePatch>False</TargetLatestRuntimePatch>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Content Remove="Controllers\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <None Remove="Controllers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+    <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="3.2.187" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntSol.Libraries.Api.Controllers.Impl\IntSol.Libraries.Api.Controllers.Impl.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Api.Controllers.Interfaces\IntSol.Libraries.Api.Controllers.Interfaces.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Business.Impl\IntSol.Libraries.Business.Impl.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Business.Interfaces\IntSol.Libraries.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Business.Validations.Impl\IntSol.Libraries.Business.Validations.Impl.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Business.Validations.Interfaces\IntSol.Libraries.Business.Validations.Interfaces.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.DataAccess.Impl\IntSol.Libraries.DataAccess.Impl.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.DataAccess.Interfaces\IntSol.Libraries.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.Models\IntSol.Libraries.Models.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.ORM.Impl\IntSol.Libraries.ORM.Impl.csproj" />
+    <ProjectReference Include="..\IntSol.Libraries.ORM.Interfaces\IntSol.Libraries.ORM.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="IntSol.Libraries.Api.Controllers.Impl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
