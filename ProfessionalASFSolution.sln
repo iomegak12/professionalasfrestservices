@@ -61,40 +61,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layer 4", "Layer 4", "{ADDA
 EndProject
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ProfessionalCRMSystemServices", "ProfessionalCRMSystemServices\ProfessionalCRMSystemServices.sfproj", "{A28579F1-1ECF-46EA-B78E-817EB94EDD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerServices", "CustomerServices\CustomerServices.csproj", "{DB0A9FF1-9F4A-41E5-B440-C01E2EFC0E78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerServices", "CustomerServices\CustomerServices.csproj", "{DB0A9FF1-9F4A-41E5-B440-C01E2EFC0E78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.Models", "IntSol.Libraries.Models\IntSol.Libraries.Models.csproj", "{96D389B9-ED40-490C-A453-74F5B4C4C4C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.Models", "IntSol.Libraries.Models\IntSol.Libraries.Models.csproj", "{96D389B9-ED40-490C-A453-74F5B4C4C4C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.ORM.Interfaces", "IntSol.Libraries.ORM.Interfaces\IntSol.Libraries.ORM.Interfaces.csproj", "{44CCEF6A-4ED7-4151-88F7-11C4B0401163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.ORM.Interfaces", "IntSol.Libraries.ORM.Interfaces\IntSol.Libraries.ORM.Interfaces.csproj", "{44CCEF6A-4ED7-4151-88F7-11C4B0401163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.ORM.Impl", "IntSol.Libraries.ORM.Impl\IntSol.Libraries.ORM.Impl.csproj", "{8BFF7007-B2DD-44DA-A6E0-C43112685234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.ORM.Impl", "IntSol.Libraries.ORM.Impl\IntSol.Libraries.ORM.Impl.csproj", "{8BFF7007-B2DD-44DA-A6E0-C43112685234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.DataAccess.Interfaces", "IntSol.Libraries.DataAccess.Interfaces\IntSol.Libraries.DataAccess.Interfaces.csproj", "{E26BAB51-16EF-4ACC-A99D-42B4E4497DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.DataAccess.Interfaces", "IntSol.Libraries.DataAccess.Interfaces\IntSol.Libraries.DataAccess.Interfaces.csproj", "{E26BAB51-16EF-4ACC-A99D-42B4E4497DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.DataAccess.Impl", "IntSol.Libraries.DataAccess.Impl\IntSol.Libraries.DataAccess.Impl.csproj", "{0FC8677E-EBEC-482E-B1E6-2B2937E4E4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.DataAccess.Impl", "IntSol.Libraries.DataAccess.Impl\IntSol.Libraries.DataAccess.Impl.csproj", "{0FC8677E-EBEC-482E-B1E6-2B2937E4E4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.Business.Interfaces", "IntSol.Libraries.Business.Interfaces\IntSol.Libraries.Business.Interfaces.csproj", "{8F25CD89-F12D-46A2-BF8F-8DF50A5CF621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.Business.Interfaces", "IntSol.Libraries.Business.Interfaces\IntSol.Libraries.Business.Interfaces.csproj", "{8F25CD89-F12D-46A2-BF8F-8DF50A5CF621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.Business.Impl", "IntSol.Libraries.Business.Impl\IntSol.Libraries.Business.Impl.csproj", "{BC82BA0C-1EF5-484F-9571-B6AA1CF47144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.Business.Impl", "IntSol.Libraries.Business.Impl\IntSol.Libraries.Business.Impl.csproj", "{BC82BA0C-1EF5-484F-9571-B6AA1CF47144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.Business.Validations.Interfaces", "IntSol.Libraries.Business.Validations.Interfaces\IntSol.Libraries.Business.Validations.Interfaces.csproj", "{0CAFCAF3-F156-4501-ACC4-5B830722C3E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.Business.Validations.Interfaces", "IntSol.Libraries.Business.Validations.Interfaces\IntSol.Libraries.Business.Validations.Interfaces.csproj", "{0CAFCAF3-F156-4501-ACC4-5B830722C3E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.Business.Validations.Impl", "IntSol.Libraries.Business.Validations.Impl\IntSol.Libraries.Business.Validations.Impl.csproj", "{869609AE-CB65-412D-B3D5-5C0002D63BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.Business.Validations.Impl", "IntSol.Libraries.Business.Validations.Impl\IntSol.Libraries.Business.Validations.Impl.csproj", "{869609AE-CB65-412D-B3D5-5C0002D63BA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F31CA3B-07E1-4B47-808C-41212E039305}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		Dockerfile = Dockerfile
 		Enterprise Application Codemap.dgml = Enterprise Application Codemap.dgml
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.Api.Controllers.Interfaces", "IntSol.Libraries.Api.Controllers.Interfaces\IntSol.Libraries.Api.Controllers.Interfaces.csproj", "{02152111-3686-4CC3-BB24-EFA64B4BFB5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.Api.Controllers.Interfaces", "IntSol.Libraries.Api.Controllers.Interfaces\IntSol.Libraries.Api.Controllers.Interfaces.csproj", "{02152111-3686-4CC3-BB24-EFA64B4BFB5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntSol.Libraries.Api.Controllers.Impl", "IntSol.Libraries.Api.Controllers.Impl\IntSol.Libraries.Api.Controllers.Impl.csproj", "{5460D98D-DA2A-429F-91B4-284A4EAC9FF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntSol.Libraries.Api.Controllers.Impl", "IntSol.Libraries.Api.Controllers.Impl\IntSol.Libraries.Api.Controllers.Impl.csproj", "{5460D98D-DA2A-429F-91B4-284A4EAC9FF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{13BC669E-D431-424A-AFF3-5FD194D6410F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeflHosting.Local", "SeflHosting.Local\SeflHosting.Local.csproj", "{8A1B9030-79BA-4291-A9A7-4539BBF91354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeflHosting.Local", "SeflHosting.Local\SeflHosting.Local.csproj", "{8A1B9030-79BA-4291-A9A7-4539BBF91354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
