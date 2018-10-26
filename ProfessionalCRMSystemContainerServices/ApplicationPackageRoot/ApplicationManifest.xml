@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest ApplicationTypeName="ProfessionalCRMSystemContainerServicesType"
+                     ApplicationTypeVersion="1.0.0"
+                     xmlns="http://schemas.microsoft.com/2011/01/fabric"
+                     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Parameters>
+    <Parameter Name="CRMSystemContainerServices_InstanceCount" DefaultValue="2" />
+  </Parameters>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="CRMSystemContainerServicesPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+    <Policies>
+      <ContainerHostPolicies CodePackageRef="Code">
+        <RepositoryCredentials AccountName="iomegacontainerregistry"
+                               Password="yJFDBfthYtY/VfAgmyxobx=7qaHzsiQp"
+                               PasswordEncrypted="false" />
+        <PortBinding ContainerPort="8080" EndpointRef="CRMSystemContainerServicesTypeEndpoint" />
+        <HealthConfig IncludeDockerHealthStatusInSystemHealthReport="true"
+                      RestartContainerOnUnhealthyDockerHealthStatus="false"/>
+      </ContainerHostPolicies>
+      <ResourceGovernancePolicy MemoryInMB="1024" CodePackageRef="Code"/>
+      <ServicePackageResourceGovernancePolicy CpuCores="1" MemoryInMB="1024"/>
+    </Policies>
+  </ServiceManifestImport>
+  <DefaultServices>
+    <Service Name="CRMSystemContainerServices" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="CRMSystemContainerServicesType" InstanceCount="[CRMSystemContainerServices_InstanceCount]">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+  </DefaultServices>
+</ApplicationManifest>

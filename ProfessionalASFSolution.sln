@@ -97,6 +97,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{13BC669E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeflHosting.Local", "SeflHosting.Local\SeflHosting.Local.csproj", "{8A1B9030-79BA-4291-A9A7-4539BBF91354}"
 EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ProfessionalCRMSystemContainerServices", "ProfessionalCRMSystemContainerServices\ProfessionalCRMSystemContainerServices.sfproj", "{83665086-1142-4F6B-B182-871FDC2E925B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,14 @@ Global
 		{8A1B9030-79BA-4291-A9A7-4539BBF91354}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A1B9030-79BA-4291-A9A7-4539BBF91354}.Release|x64.ActiveCfg = Release|Any CPU
 		{8A1B9030-79BA-4291-A9A7-4539BBF91354}.Release|x64.Build.0 = Release|Any CPU
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Debug|x64.ActiveCfg = Debug|x64
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Debug|x64.Build.0 = Debug|x64
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Debug|x64.Deploy.0 = Debug|x64
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Release|Any CPU.ActiveCfg = Release|x64
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Release|x64.ActiveCfg = Release|x64
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Release|x64.Build.0 = Release|x64
+		{83665086-1142-4F6B-B182-871FDC2E925B}.Release|x64.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,6 +272,7 @@ Global
 		{5460D98D-DA2A-429F-91B4-284A4EAC9FF8} = {1BC132B4-26EC-4695-A7A2-7CF1BAAB1016}
 		{13BC669E-D431-424A-AFF3-5FD194D6410F} = {767EF477-B7E6-4501-868F-84E4CA5F07FD}
 		{8A1B9030-79BA-4291-A9A7-4539BBF91354} = {13BC669E-D431-424A-AFF3-5FD194D6410F}
+		{83665086-1142-4F6B-B182-871FDC2E925B} = {D4A290C9-76ED-4C57-859A-2B449EC83433}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F43FD60-FD18-4242-A99B-FD0E75F0F56C}
